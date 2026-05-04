@@ -1,0 +1,70 @@
+T290C 000:024.711   SEGGER J-Link V8.16 Log File
+T290C 000:027.178   DLL Compiled: Feb 26 2025 12:07:26
+T290C 000:027.200   Logging started @ 2026-05-03 12:18
+T290C 000:027.217   Process: C:\Users\Administrator\AppData\Local\Keil_v5\UV4\UV4.exe
+T290C 000:028.845 - 27.232ms 
+T290C 000:029.348 JLINK_SetWarnOutHandler(...)
+T290C 000:029.387 - 0.487ms 
+T290C 000:029.421 JLINK_OpenEx(...)
+T290C 000:039.253   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+T290C 000:040.990   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+T290C 000:043.723   Hardware: V8.00
+T290C 000:043.737   S/N: 805251123
+T290C 000:043.746   OEM: SEGGER
+T290C 000:043.755   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB
+T290C 000:044.951   Bootloader: (FW returned invalid version)
+T290C 000:045.886   TELNET listener socket opened on port 19021
+T290C 000:046.101   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T290C 000:046.240   WEBSRV Webserver running on local port 19080
+T290C 000:046.377   Looking for J-Link GUI Server exe at: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T290C 000:046.512   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T290C 000:046.561   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T290C 000:091.019   J-Link GUI Server info: "J-Link GUI server V7.52 "
+T290C 000:091.165   J-Link GUI Server: Connection breakdown.
+T290C 000:091.567 - 61.798ms returns "O.K."
+T290C 000:091.588 JLINK_GetEmuCaps()
+T290C 000:091.599 - 0.007ms returns 0xB9FF7BBF
+T290C 000:091.612 JLINK_TIF_GetAvailable(...)
+T290C 000:091.795 - 0.183ms 
+T290C 000:091.807 JLINK_SetErrorOutHandler(...)
+T290C 000:091.813 - 0.006ms 
+T290C 000:092.726 JLINK_ExecCommand("ProjectFile = "E:\三相SVPWM控制两相PMSM\PMSM优化控制研究-双变量注入\Source Code\JLinkSettings.ini"", ...). 
+T290C 000:162.953   Device "CORTEX-M0" selected.
+T290C 000:163.409 - 70.685ms returns 0x00
+T290C 000:169.757 JLINK_ExecCommand("Device = LKS32MC038Y6P8", ...). 
+T290C 000:175.754   Device "CORTEX-M0" selected.
+T290C 000:176.137 - 6.355ms returns 0x00
+T290C 000:176.153 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T290C 000:176.516   ERROR: Unknown command
+T290C 000:176.532 - 0.371ms returns 0x01
+T290C 000:176.542 JLINK_GetHardwareVersion()
+T290C 000:176.550 - 0.007ms returns 80000
+T290C 000:176.558 JLINK_GetDLLVersion()
+T290C 000:176.564 - 0.006ms returns 81600
+T290C 000:176.571 JLINK_GetOEMString(...)
+T290C 000:176.579 JLINK_GetFirmwareString(...)
+T290C 000:176.585 - 0.006ms 
+T290C 000:195.352 JLINK_GetDLLVersion()
+T290C 000:195.374 - 0.022ms returns 81600
+T290C 000:195.380 JLINK_GetCompileDateTime()
+T290C 000:195.384 - 0.004ms 
+T290C 000:200.345 JLINK_GetFirmwareString(...)
+T290C 000:200.363 - 0.017ms 
+T290C 000:204.818 JLINK_GetHardwareVersion()
+T290C 000:204.831 - 0.012ms returns 80000
+T290C 000:208.878 JLINK_GetSN()
+T290C 000:208.891 - 0.012ms returns 805251123
+T290C 000:213.582 JLINK_GetOEMString(...)
+T290C 000:222.842 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T290C 000:223.590 - 0.750ms returns 0x00
+T290C 000:223.601 JLINK_HasError()
+T290C 000:223.611 JLINK_SetSpeed(2000)
+T290C 000:223.675 - 0.064ms 
+T290C 000:223.684 JLINK_GetId()
+T290C 000:341.459   Failed to attach to CPU. Trying connect under reset.
+T290C 000:666.887   Connect fallback: Reset via Reset pin & Connect.
+T290C 000:824.738 - 601.051ms returns 0x00000000
+T290C 002:270.830 JLINK_Close()
+T290C 002:284.391 - 13.560ms
+T290C 002:284.422   
+T290C 002:284.427   Closed
